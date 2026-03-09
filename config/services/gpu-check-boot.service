@@ -1,0 +1,10 @@
+[Unit]
+Description=Check GPU state on boot
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/swon/.scripts/gpu-autocheck.sh
+
+[Install]
+WantedBy=multi-user.target

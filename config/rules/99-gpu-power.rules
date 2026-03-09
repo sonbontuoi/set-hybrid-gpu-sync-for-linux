@@ -1,0 +1,1 @@
+SUBSYSTEM=="power_supply", ACTION=="change", RUN+="/home/swon/.scripts/gpu-autocheck.sh"
