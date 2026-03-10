@@ -1,11 +1,11 @@
 # Set Hybrid Gpu sync for linux
 
-#My Computer
+#My Computer<br>
 Model: ASUS TUF Gaming F15 FX506LHB_FX506LHB<br>
 CPU: Intel(R) Core(TM) i5-10300H<br>
 dGpu:NVIDIA GeForce GTX 1650 Mobile / Max-Q<br>
 
-#Note
+#Note<br>
 When making GPU changes, reboot or sign out to reload the environment files.
 
 #Auto installation
@@ -67,3 +67,5 @@ Update the STATUS variable in the script to match your output:
 ```bash
 nano ~/.scripts/gpu-autocheck.sh
 ```
+
+Thank you.
