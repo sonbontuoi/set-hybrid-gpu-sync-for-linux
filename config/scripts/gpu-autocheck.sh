@@ -3,8 +3,8 @@
 CONFIG_ENABLED="$HOME/.config/environment.d/99-nvidia.conf"
 CONFIG_DISABLED="$HOME/.config/environment.d/99-nvidia.conf.disable"
 
-# power_supply your device
-STATUS=$(cat /sys/class/power_supply/ACAD/online)
+POWER_SUPPLY=$(ls /sys/class/power_supply/AC*/online)
+STATUS=$(cat "$POWER_SUPPLY")
 
 if [ "$STATUS" -eq 1 ]; then
     if [ -f "$CONFIG_DISABLED" ]; then
