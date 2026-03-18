@@ -6,6 +6,7 @@ CPU: Intel(R) Core(TM) i5-10300H<br>
 dGpu:NVIDIA GeForce GTX 1650 Mobile / Max-Q<br>
 
 #Note<br>
+
 When making GPU changes, reboot or sign out to reload the environment files.
 
 #Auto installation

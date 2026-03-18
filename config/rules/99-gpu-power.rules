@@ -1,1 +1,1 @@
-SUBSYSTEM=="power_supply", ACTION=="change", RUN+="/home/swon/.scripts/gpu-autocheck.sh"
+SUBSYSTEM=="power_supply", ACTION=="change", RUN+="/usr/bin/sudo -u your_user_name /home/your_user_name/.scripts/gpu-autocheck.sh" 

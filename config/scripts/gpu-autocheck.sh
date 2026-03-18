@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CONFIG_ENABLED="$HOME/.config/environment.d/99-nvidia.conf"
-CONFIG_DISABLED="$HOME/.config/environment.d/99-nvidia.conf.disable"
+CONFIG_ENABLED="/home/your_user_name/.config/environment.d/99-nvidia.conf"
+CONFIG_DISABLED="/home/your_user_name/.config/environment.d/99-nvidia.conf.disable"
 
 POWER_SUPPLY=$(ls /sys/class/power_supply/AC*/online)
 STATUS=$(cat "$POWER_SUPPLY")
